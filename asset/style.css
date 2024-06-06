@@ -477,9 +477,9 @@ a {
   font-size: 6rem;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  letter-spacing: 2rem;
   color: #fff;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .sub-heading {
   font-size: 2rem;
@@ -1117,7 +1117,7 @@ textarea {
     gap: 9rem;
   }
   .about-left {
-    margin-top: -10rem;
+    margin-top: -17rem;
   }
 }
 @media (max-width: 700px) {

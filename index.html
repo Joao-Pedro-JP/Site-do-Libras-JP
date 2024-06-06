@@ -168,19 +168,19 @@
               <span>12.23%</span>
             </div>
             <p>
-              #<br>
-              #
+              Java é conhecido por sua portabilidade e robustez, sendo utilizado em uma 
+              variedade de aplicações, <br> desde dispositivos móveis até grandes sistemas corporativos.
+              
             </p>
             <div class="skills-card-progress"></div>
           </div>
           <div class="skills-card">
             <div class="skill">
               <span>Jupter Notebook</span>
-              <span>51.93%</span>
+              <span>42.06%</span>
             </div>
             <p>
-              #<br>
-              #
+              O Jupyter Notebook é uma aplicação web de código aberto que permite cria e <br> compartilhar documentos interativos que contêm código, texto explicativo e equações matemáticas
             </p>
             <div class="skills-card-progress"></div>
           </div>
@@ -197,49 +197,49 @@
           </div>
         </div>
       </section>
+
+
       
       <section class="projects" id="projects">
-        <h1 class="section-bg-heading">Meus projetos</h1>
-        <h1 class="section-heading">Portfolio</h1>
+          <h1 class="section-heading">Portfolio</h1>
+          <h1 class="section-bg-heading">Meus projetos</h1>
         <h3 class="sub-heading">Meus<span>projetos</span></h3>
         <div class="projects-cards">
           <div class="project-card">
             <div class="project-img">
-              <img src="./" alt="" />
+              <img src="./asset/images/LIBRAS.COM.png" alt="LIBRAS" />
             </div>
             <div class="techs">
-              <span>#</span>
-              <span>-#</span>
-              <span>-#</span>
-              <span>-#</span>
+              <span>LIBRAS.COM</span>
             </div>
-            <h3 class="project-name">#</h3>
+            <h3 class="project-name">LIBRAs</h3>
             <p class="project-desc">
-              #
+              LIBRAS é a sigla de Língua Brasileira de Sinais, um conjunto de formas gestuais <br>
+              utilizado por deficientes auditivos para a comunicação entre eles e outras pessoas,<br> 
+              sejam elas surdas ou ouvintes. <br>
             </p>
             <button class="project-btn">
               Ver Projeto <i class="fa-sharp fa-solid fa-arrow-right"></i>
             </button>
           </div>
+
+
           <div class="project-card">
             <div class="project-img">
-              <img src="./" alt="" />
+              <img src="./asset/images/Delícias JB.png" alt="" />
             </div>
             <div class="techs">
-              <span>#</span>
-              <span>-#</span>
-              <span>-#</span>
-              <span>-#</span>
+              <span>Delícias-JB.com</span>
             </div>
-            <h3 class="project-name">#</h3>
+            <h3 class="project-name">Delícias JB</h3>
             <p class="project-desc">
-              #
+              Para criar um código HTML para um tema de bolo
             </p>
             <button class="project-btn">
               Ver Projeto <i class="fa-sharp fa-solid fa-arrow-right"></i>
             </button>
           </div>
-          <div class="project-card">
+          <!-- <div class="project-card">
             <div class="project-img">
               <img src="./" alt="" />
             </div>
@@ -255,16 +255,24 @@
             <button class="project-btn">
               Ver Projeto<i class="fa-sharp fa-solid fa-arrow-right"></i>
             </button>
-          </div>
+          </div> -->
           <div class="project-card">
             <div class="project-img">
-              <img src="./" alt="" />
+              <img src="./asset/images/Calculator JP.png" alt="" />
             </div>
-            
-          <button type="button" class="btn">View More</button>
+            <div class="techs">
+              <span>Calculator-JP.com</span>
+            </div>
+              <h3 class="project-name">Calculator-JP</h3>
+            <p class="project-desc">
+              Uma calculadora é uma ferramenta útil para realizar cálculos matemáticos rapidamente.
+            </p>
+            <a href="https://joao-pedro-f.github.io/Calculator-JP/">
+          <button type="button" class="btn">Ver Projeto</button>
         </div>
-        <div class="section-border"></div>
+        <div class="section-border"></div></a>
       </section>
+      
 
       <section class="contact" id="contact">
         <h1 class="section-bg-heading">Contate-me</h1>
@@ -303,7 +311,7 @@
             </div>
           </div>
           <div class="contact-right">
-            <form>
+            <!-- <form>
               <div class="input-groups">
                 <div class="input-group">
                   <label for="name"
@@ -333,7 +341,30 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
+
+        <form id="contact-form">
+          <div class="input-groups">
+            <div class="input-group">
+              <label for="name">Seu nome completo :<i class="fa-solid fa-asterisk"></i></label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Seu endereço de email :<i class="fa-solid fa-asterisk"></i></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="input-group">
+              <label for="subject">Seu assunto :<i class="fa-solid fa-asterisk"></i></label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="input-group">
+              <label for="message">Sua mensagem :<i class="fa-solid fa-asterisk"></i></label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Enviar mensagem</button>
+          </div>
+        </form>
+        
       </section>
 
       <footer class="footer">
@@ -354,5 +385,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="asset/main.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
   </body>
 </html>
